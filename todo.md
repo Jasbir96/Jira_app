@@ -22,3 +22,7 @@ all the codes are combined and it ios treated as one
 Flex-wrap -> if all the elements 
 width is more then the given width of the parent
  then wrap will put the extra elements in the next line 
+
+ <!-- git init -->
+ <!-- git add . -->
+ <!-- git commit -m "some message  -->
