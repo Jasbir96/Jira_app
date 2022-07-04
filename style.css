@@ -1,0 +1,176 @@
+body {
+    margin: 0px;
+}
+
+* {
+    box-sizing: border-box;
+    /* question*/
+}
+
+.header {
+    height: 5rem;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.color_pallete {
+    height: 65%;
+    width: 12rem;
+    background-color: #393c3f;
+    margin-right: 5rem;
+    margin-left: 2rem;
+    display: flex;
+    border-radius: 7px;
+}
+
+.color_boxes {
+    width: 25%;
+    height: 100%;
+    /* border: 1px solid red; */
+    /* perefectly center a div inside a div */
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+/* generic styling  */
+.color {
+    height: 50%;
+    width: 50%;
+    border-radius: 4px;
+}
+
+.pink {
+    background-color: lightpink;
+}
+
+.blue {
+    background-color: lightblue;
+}
+
+.green {
+    background-color: lightgreen;
+}
+
+.black {
+    background-color: black;
+}
+
+/* options */
+.options {
+    height: 65%;
+    width: 7rem;
+    background-color: #393c3f;
+    display: flex;
+    margin-right: 3rem;
+}
+
+.clicked {
+    background-color: #282829;
+}
+
+.box {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.icon {
+    color: white;
+    font-size: 2rem;
+}
+
+/* main */
+.main {
+    min-height: 90vh;
+    background-color: rgb(241, 234, 234);
+    padding: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.ticket {
+    height: 10rem;
+    width: 16rem;
+    /* margin-top: 10rem; */
+    /* margin-left: 10rem; */
+}
+
+
+.ticket_header {
+    height: 6%;
+}
+
+.ticket_content {
+    height: 94%;
+}
+
+.ticket_id {
+    height: 20%;
+    font-weight: bolder;
+    background-color: white;
+    font-family: sans-serif;
+    color: #989393;
+    padding-top: 0.4rem;
+    padding-left: 1rem;
+}
+
+textarea {
+    height: 80%;
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 1rem;
+    font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif;
+    /* verticle distance b/w two lines  */
+    line-height: 145%;
+    text-align: center;
+}
+
+
+/* modal */
+.modal {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    height: 18rem;
+    width: 35rem;
+    background: white;
+    position: fixed;
+    top: 10rem;
+    /* to place an element in horizontal center using position  */
+    left: calc((100vw - 35rem) / 2);
+    display: flex;
+}
+
+.contentarea {
+    width: 70%;
+    height: 100%;
+    font-size: 1.5rem;
+    padding: 2rem;
+}
+
+.pallet_container {
+    height: 100%;
+    width: 30%;
+    background-color: rgb(56, 54, 54);
+    display: flex;
+    /* column wise  */
+    flex-direction: column;
+    /* verically*/
+    justify-content: space-evenly;
+    /* horizontal center  */
+    align-items: center;
+}
+
+.pallet_color {
+    height: 15%;
+    width: 60%;
+    border-radius: 2px;
+
+}
